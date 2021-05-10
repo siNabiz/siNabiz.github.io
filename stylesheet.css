@@ -95,6 +95,7 @@ a {
   padding:2.5%;
   width:40%;
   max-width:40%;
+  margin: 0 auto;
 }
 
 .bio_image {
@@ -127,6 +128,7 @@ name {
 .one {
   width: 160px;
   position: relative;
+  margin: 0 auto;
 }
 
 .two {
