@@ -84,16 +84,23 @@ a {
   font-size: 16px
 }
 
-@media all and (max-width:500px){
-  td{
-      display:block;
-      width:100%;
-  }
 
-  tr{
-      display:block;
-      margin-bottom:30px;
-  }
+.bio_text_wrapper {
+  padding:2.5%;
+  width:63%;
+  vertical-align:middle;
+}
+
+.bio_image_wrapper {
+  padding:2.5%;
+  width:40%;
+  max-width:40%;
+}
+
+.bio_image {
+  width:100%;
+  max-width:100%;
+  border-radius:50%;
 }
 
 strong {
@@ -139,4 +146,16 @@ name {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+@media all and (max-width:500px){
+  .content_table td{
+      display:block;
+      width:100%;
+  }
+
+  tr{
+      display:block;
+      margin-bottom:30px;
+  }
 }
