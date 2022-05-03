@@ -57,7 +57,49 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr onmouseout="covectorfluids_stop()" onmouseover="covectorfluids_start()">
+            <td style="padding:20px">
+              <div class="one">
+                <div class="two" id='covectorfluids_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/covectorfluids.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+                </div>
+                <img src='images/covectorfluids.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function covectorfluids_start() {
+                  document.getElementById('covectorfluids_image').style.opacity = "1";
+                }
 
+                function covectorfluids_stop() {
+                  document.getElementById('covectorfluids_image').style.opacity = "0";
+                }
+                covectorfluids_stop()
+              </script>
+            </td>
+            <td style="padding:20px">
+              <a href="http://cseweb.ucsd.edu/~viscomp/projects/SIG22CovectorFluids/">
+              <papertitle>Covector Fluids</papertitle>
+              </a>
+              <br>
+              <strong>Mohammad Sina Nabizadeh</strong>,
+              <a href="https://evastgh.github.io/">Stephanie Wang</a>,
+              <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>,
+              <a href="https://cseweb.ucsd.edu/~alchern/">Albert Chern</a>
+              <br>
+              <em>SIGGRAPH</em>, 2022
+              <br>
+              <a href="http://cseweb.ucsd.edu/~viscomp/projects/SIG22CovectorFluids/">project page</a>
+              /
+              <!-- <a href="https://www.youtube.com/watch?v=7zxp0kAzWwI">video</a> -->
+              video
+              /
+              <a href="data/covectorfluids_siggraph2022.bib">bibtex</a>
+              <p></p>
+              <p>We simulate Euler equations for inviscid fluids by using a novel formulation based on covectors. This new formulation is an entirely velocity-based method in the vein of advection-projection methods while emulating vortex methods. This allows for capturing more intricate vortex dynamics and reducing dissipation of energy with low computational overhead.</p>
+            </td>
+          </tr>
           <tr onmouseout="kelvintransform_stop()" onmouseover="kelvintransform_start()">
             <td style="padding:20px">
               <div class="one">
@@ -115,6 +157,39 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr onmouseout="pixar_stop()" onmouseover="pixar_start()">
+            <td style="padding:20px">
+              <div class="one">
+                <div class="two" id='pixar_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/pixar.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+                </div>
+                <img src='images/pixar.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function pixar_start() {
+                  document.getElementById('pixar_image').style.opacity = "1";
+                }
+
+                function pixar_stop() {
+                  document.getElementById('pixar_image').style.opacity = "0";
+                }
+                pixar_stop()
+              </script>
+            </td>
+            <td style="padding:20px">
+              Pixar
+              <br>
+              Incoming Research Intern
+              <br>
+              Emeryville, California, USA
+              <br>
+              June, 2022 - September, 2022
+              <p></p>
+              <p>Mentors: Mark Meyer, Andrew Butts <br> TBA.</p>
+            </td>
+          </tr>
 
           <tr onmouseout="treyarch_stop()" onmouseover="treyarch_start()">
             <td style="padding:20px">
