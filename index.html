@@ -176,6 +176,40 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr onmouseout="weta_stop()" onmouseover="weta_start()">
+            <td style="padding:20px">
+              <div class="one">
+                <div class="two" id='weta_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/weta.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+                </div>
+                <img src='images/weta.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function weta_start() {
+                  document.getElementById('weta_image').style.opacity = "1";
+                }
+
+                function weta_stop() {
+                  document.getElementById('weta_image').style.opacity = "0";
+                }
+                weta_stop()
+              </script>
+            </td>
+            <td style="padding:20px">
+              Weta Digital x Unity
+              <br>
+              Incoming Research Intern
+              <br>
+              Wellington, New Zealand (remote)
+              <br>
+              June, 2023 - September, 2023
+              <p></p>
+              <p>Mentor: Alexey Stomakhin</p>
+            </td>
+          </tr>
+
           <tr onmouseout="pixar_stop()" onmouseover="pixar_start()">
             <td style="padding:20px">
               <div class="one">
@@ -200,7 +234,7 @@
             <td style="padding:20px">
               Pixar
               <br>
-              Incoming Research Intern
+              Research Intern
               <br>
               Emeryville, California, USA
               <br>
