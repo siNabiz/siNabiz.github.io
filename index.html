@@ -101,6 +101,48 @@
               <p>We derive the dynamics of harmonic components for incompressible inviscid fluids, which has previously been overlooked in the vorticity-streamfunction formulation for Euler equations. We elucidate the physical laws associated with the new equations and show their importance in reproducing physically correct behaviors of fluid flows on domains with general topology.</p>
             </td>
           </tr>
+          <tr onmouseout="infinitewave_stop()" onmouseover="infinitewave_start()">
+            <td style="padding:20px">
+              <div class="one">
+                <div class="two" id='infinitewave_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/infinitewave.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+                </div>
+                <img src='images/infinitewave.jpeg' width="185">
+              </div>
+              <script type="text/javascript">
+                function infinitewave_start() {
+                  document.getElementById('infinitewave_image').style.opacity = "1";
+                }
+
+                function infinitewave_stop() {
+                  document.getElementById('infinitewave_image').style.opacity = "0";
+                }
+                infinitewave_stop()
+              </script>
+            </td>
+            <td style="padding:20px">
+              <a href="https://arxiv.org/abs/2305.08033">
+              <papertitle>Wave Simulations in Infinite Spacetime</papertitle>
+              </a>
+              <br>
+              <a href="https://yhesper.github.io">Chad McKell</a>,
+              <strong>Mohammad Sina Nabizadeh</strong>,
+              <a href="https://evastgh.github.io/">Stephanie Wang</a>,
+              <a href="https://cseweb.ucsd.edu/~alchern/">Albert Chern</a>
+              <br>
+              <!-- <em>SIGGRAPH</em>, 2023
+              <br> -->
+              <a href="https://arxiv.org/abs/2305.08033">arxiv link</a>
+              <!-- /
+              <a href="">video</a>
+              /
+              <a href="data/infinitewave.bib">bibtex</a> -->
+              <p></p>
+              <p>We present a method for solving the wave equation on the entire infinite domain using only finite computation time and memory. We perform wave simulations in infinite spacetime using a finite discretization of the bounded spacetime with no additional loss of accuracy introduced by the Kelvin transformation.</p>
+            </td>
+          </tr>
           <tr onmouseout="covectorfluids_stop()" onmouseover="covectorfluids_start()">
             <td style="padding:20px">
               <div class="one">
