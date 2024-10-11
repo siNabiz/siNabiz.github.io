@@ -20,15 +20,15 @@
               <p style="text-align:center">
                 <name>Mohammad Sina Nabizadeh</name>
               </p>
-              <p>I'm a CS PhD student at <a href="https://ucsd.edu/">UC San Diego</a> and the <a href="http://visualcomputing.ucsd.edu/">Center for Visual Computing</a>, where I work on computer graphics research.
+              <p style="text-align:justify;">I'm a CS PhD candidate at <a href="https://ucsd.edu/">UC San Diego</a> and the <a href="http://visualcomputing.ucsd.edu/">Center for Visual Computing</a>, where I work on computer graphics research.
               </p>
-              <p>
-                At UC San Diego, my supervisors are professors <a href="https://cseweb.ucsd.edu/~alchern/">Albert Chern</a> and <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>.
-                I did my bachelors in computer engineering at the <a href="https://uwaterloo.ca/">University of Waterloo</a>, where I was advised by professor <a href="https://cs.uwaterloo.ca/~c2batty/">Christopher Batty</a> at the <a href="https://uwaterloo.ca/computational-motion-group/">Computational Motion Group</a>.
+              <p style="text-align:justify;">
+                At UC San Diego, I am extremely lucky to work with professors <a href="https://cseweb.ucsd.edu/~alchern/">Albert Chern</a> and <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>.
+                I did my bachelors in computer engineering at the <a href="https://uwaterloo.ca/">University of Waterloo</a>, where I was fortunate to be advised by professor <a href="https://cs.uwaterloo.ca/~c2batty/">Christopher Batty</a> at the <a href="https://uwaterloo.ca/computational-motion-group/">Computational Motion Group</a>.
               </p>
-              <p>
-                I've received a silver medal at the <a href="https://www.ioaastrophysics.org/">International Olympiad on Astronomy and Astrophysics</a> in 2014 and <a href="https://betakit.com/heres-the-list-of-canadas-developer-30-under-30">Canada Developer 30 Under 30 Award</a> in 2018.
-                I've been credited for working on <a href="https://www.sidefx.com/docs/houdini/credits.html">Houdini by SideFX</a>, and two AAA games in 2020: <a href="https://youtu.be/3YUpzlI3dpA?t=83">Watch Dogs Legion by Ubisoft</a> and <a href="https://youtu.be/DkspHgt27Io?t=273">Call of Duty Black Ops: Cold War by Activision</a>.
+              <p style="text-align:justify;">
+                I received a silver medal at the <a href="https://www.ioaastrophysics.org/">International Olympiad on Astronomy and Astrophysics</a> in 2014 and <a href="https://betakit.com/heres-the-list-of-canadas-developer-30-under-30">Canada Developer 30 Under 30 Award</a> in 2018.
+                I was credited for working on <a href="https://www.sidefx.com/docs/houdini/credits.html">Houdini by SideFX</a>, and two AAA games in 2020: <a href="https://youtu.be/3YUpzlI3dpA?t=83">Watch Dogs Legion by Ubisoft</a> and <a href="https://youtu.be/DkspHgt27Io?t=273">Call of Duty Black Ops: Cold War by Activision</a>.
               </p>
               <p style="text-align:center">
                 <a href="https://www.linkedin.com/in/mohammad-sina-nabizadeh/">LinkedIn</a> &nbsp/&nbsp
@@ -52,13 +52,57 @@
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Publications</heading>
-              <p>
-                I'm interested in computer graphics, physics-based simulations, differential geometry, computational physics, rendering, and optimization.
+              <p style="text-align:justify;">
+                I'm broadly interested in the intersection of mathematics, computer science, physics, and engineering.  More specifically, I'm passionate about computational geometric mechanics, structure-preserving simulations, discrete differential geometry, optimization, and stochastic mechanics.  I also avidly follow research in the real-time computer graphics field.
               </p>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="coflip_stop()" onmouseover="coflip_start()">
+            <td style="padding:20px">
+              <div class="one">
+                <div class="two" id='coflip_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/coflip.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+                </div>
+                <img src='images/coflip.jpg' width="190">
+              </div>
+              <script type="text/javascript">
+                function coflip_start() {
+                  document.getElementById('coflip_image').style.opacity = "1";
+                }
+
+                function coflip_stop() {
+                  document.getElementById('coflip_image').style.opacity = "0";
+                }
+                coflip_stop()
+              </script>
+            </td>
+            <td style="padding:20px">
+              <a href="http://cseweb.ucsd.edu/~viscomp/projects/SIGA24COFLIP/">
+              <papertitle>Fluid Implicit Particles on Coadjoint Orbits</papertitle>
+              </a>
+              <br>
+              <strong>Mohammad Sina Nabizadeh</strong>,
+              <a href="https://scholar.google.com/citations?user=jSueleoAAAAJ&hl=en">Ritoban Roy-Chowdhury</a>,
+              <a href="https://yhesper.github.io">Hang Yin</a>,
+              <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>,
+              <a href="https://cseweb.ucsd.edu/~alchern/">Albert Chern</a>
+              <br>
+              <em>SIGGRAPH Asia</em>, 2024
+              <br>
+              <a href="http://cseweb.ucsd.edu/~viscomp/projects/SIGA24COFLIP/">project page</a>
+              /
+              <a>video</a>
+              /
+              <a href="data/coflip_siggraphasia2024.bib">bibtex</a>
+              <p></p>
+              <p style="text-align:justify;">We propose Coadjoint Orbit FLIP (CO-FLIP), a high order accurate, structure preserving fluid simulation method in the hybrid Eulerian-Lagrangian framework. Using a discrete Hamiltonian formulation we achieve energy and Casimir preservation; formally, the flow evolves on infinite-dimensional coadjoint orbits. We show that the method produces benchmarks and turbulent visual effects even at low grid resolutions.</p>
+            </td>
+          </tr>
 
           <tr onmouseout="fluidcohomology_stop()" onmouseover="fluidcohomology_start()">
             <td style="padding:20px">
@@ -96,11 +140,11 @@
               <br>
               <a href="https://yhesper.github.io/fc23/fc23.html">project page</a>
               /
-              <a href="">video</a>
+              <a href="https://youtu.be/eY8RUi5mrhc">video</a>
               /
               <a href="data/fluidcohomology_siggraph2023.bib">bibtex</a>
               <p></p>
-              <p>We derive the dynamics of harmonic components for incompressible inviscid fluids, which has previously been overlooked in the vorticity-streamfunction formulation for Euler equations. We elucidate the physical laws associated with the new equations and show their importance in reproducing physically correct behaviors of fluid flows on domains with general topology.</p>
+              <p style="text-align:justify;">We derive the dynamics of harmonic components for incompressible inviscid fluids, which has previously been overlooked in the vorticity-streamfunction formulation for Euler equations. We elucidate the physical laws associated with the new equations and show their importance in reproducing physically correct behaviors of fluid flows on domains with general topology.</p>
             </td>
           </tr>
           <tr onmouseout="extcourse_stop()" onmouseover="extcourse_start()">
@@ -139,7 +183,7 @@
               /
               <a href="data/extcourse_siggraph2023.bib">bibtex</a>
               <p></p>
-              <p>This is a comprehensive course for graphics researchers to fill the gap between their undergraduate curriculum of multivariable calculus and cutting-edge graphics research. We use relevant examples from computer graphics to illustrate the theory of exterior calculus leading to advanced topics including continuum mechanics, fluid dynamics, and geometric optimizations.</p>
+              <p style="text-align:justify;">This is a comprehensive course for graphics researchers to fill the gap between their undergraduate curriculum of multivariable calculus and cutting-edge graphics research. We use relevant examples from computer graphics to illustrate the theory of exterior calculus leading to advanced topics including continuum mechanics, fluid dynamics, and geometric optimizations.</p>
             </td>
           </tr>
           <tr onmouseout="infinitewave_stop()" onmouseover="infinitewave_start()">
@@ -181,7 +225,7 @@
               /
               <a href="data/infinitewave.bib">bibtex</a> -->
               <p></p>
-              <p>We present a method for solving the wave equation on the entire infinite domain using only finite computation time and memory. We perform wave simulations in infinite spacetime using a finite discretization of the bounded spacetime with no additional loss of accuracy introduced by the Kelvin transformation.</p>
+              <p style="text-align:justify;">We present a method for solving the wave equation on the entire infinite domain using only finite computation time and memory. We perform wave simulations in infinite spacetime using a finite discretization of the bounded spacetime with no additional loss of accuracy introduced by the Kelvin transformation.</p>
             </td>
           </tr>
           <tr onmouseout="covectorfluids_stop()" onmouseover="covectorfluids_start()">
@@ -223,7 +267,7 @@
               /
               <a href="data/covectorfluids_siggraph2022.bib">bibtex</a>
               <p></p>
-              <p>We simulate Euler equations for inviscid fluids by using a novel formulation based on covectors. This new formulation is an entirely velocity-based method in the vein of advection-projection methods while emulating vortex methods. This allows for capturing more intricate vortex dynamics and reducing dissipation of energy with low computational overhead.</p>
+              <p style="text-align:justify;">We simulate Euler equations for inviscid fluids by using a novel formulation based on covectors. This new formulation is an entirely velocity-based method in the vein of advection-projection methods while emulating vortex methods. This allows for capturing more intricate vortex dynamics and reducing dissipation of energy with low computational overhead.</p>
             </td>
           </tr>
           <tr onmouseout="kelvintransform_stop()" onmouseover="kelvintransform_start()">
@@ -264,7 +308,7 @@
               /
               <a href="data/kelvintransform_siggraph2021.bib">bibtex</a>
               <p></p>
-              <p>We solve infinite-domain simulation problems by applying the Kelvin transform. The transformation turns infinite-domain PDEs into bounded-domain ones via a domain inversion and a singularity factorization.</p>
+              <p style="text-align:justify;">We solve infinite-domain simulation problems by applying the Kelvin transform. The transformation turns infinite-domain PDEs into bounded-domain ones via a domain inversion and a singularity factorization.</p>
             </td>
           </tr>
 
@@ -272,21 +316,21 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
-          <td style="padding:20px;width:100%">
+          <td style="padding:20px;width:100%;">
             <heading>News</heading>
             <ul>
               <li>June 2nd 2023: Talk on Covector Fluids paper at Pixel Cafe at UCSD CSE department. (In-person)</li>
               <li>April 22nd 2023: Talk on Covector Fluids paper at Southern California Fluids Conference. (In-person)</li>
               <li>February 28th 2023: Talk on Covector Fluids paper at Geometric Mechanics at UCSD Math department. (In-person)</li>
               <li>November 3rd 2022: Talk on Covector Fluids paper at joint oceanography seminar at UCSD Scripps Institution of Oceanography. (In-person)</li>
-              <li>August 10th 2022: Talk on Covector Fluids paper at SIGGRAPH 2022. (In-person) <a href="https://dl.acm.org/doi/abs/10.1145/3528223.3530120">recording here</a></li>
+              <li>August 10th 2022: Talk on Covector Fluids paper at SIGGRAPH 2022. (In-person with <a href="https://dl.acm.org/doi/abs/10.1145/3528223.3530120">recording here</a>)</li>
               <li>August 4th 2022: Talk on Covector Fluids paper at Stanford University. (In-person)</li>
               <li>June 9th 2022: Talk on Covector Fluids paper at Visual Computing Center's retreat. (In-person)</li>
               <li>June 7th 2022: Discussion on Covector Fluids paper at McGill Univeristy. (Remote)</li>
               <li>June 2nd 2022: Talk on Covector Fluids paper at University of Waterloo Computer Graphics Lab (CGL). (Remote)</li>
               <li>May 10th 2022: Talk on Covector Fluids paper at SideFX Software. (Remote)</li>
-              <li>September 24th 2021: Talk on Kelvin Transform paper at Toronto Geometry Colloquium (TGC). (Remote) <a href="https://www.youtube.com/watch?v=bI3nALA895g">recording here</a></li>
-              <li>August 11th 2021: Talk on Kelvin Transform paper at SIGGRAPH 2021. (Remote) <a href="https://dl.acm.org/doi/abs/10.1145/3450626.3459809">recording here</a></li>
+              <li>September 24th 2021: Talk on Kelvin Transform paper at Toronto Geometry Colloquium (TGC). (Remote with <a href="https://www.youtube.com/watch?v=bI3nALA895g">recording here</a>)</li>
+              <li>August 11th 2021: Talk on Kelvin Transform paper at SIGGRAPH 2021. (Remote with <a href="https://dl.acm.org/doi/abs/10.1145/3450626.3459809">recording here</a>)</li>
             </ul>
           </td>
         </tr>
@@ -299,8 +343,8 @@
             <tr>
             <td style="padding:20px;width:100%">
               <heading>Experience</heading>
-              <p>
-                Throughout my studies, I've managed to intern at various places with a focus on my passion for computer graphics, animation, and gaming.
+              <p style="text-align:justify;">
+                Throughout my studies, I've been very fortunate to intern at various places, and be mentored by all the wonderful folks listed below, so that I could pursue my childhood passion towards movies, animation, and gaming.  These internships have allowed to me witness how much beautiful math, physics, and engineering goes into creating these forms of art, and contribute my share to them.
               </p>
             </td>
           </tr>
@@ -315,7 +359,7 @@
                 Your browser does not support the video tag.
                 </video>
                 </div>
-                <img src='images/weta_fx_logo.jpeg' width="160">
+                <img src='images/weta_fx_logo.jpeg' width="180">
               </div>
               <script type="text/javascript">
                 function weta_start() {
@@ -349,7 +393,7 @@
                 Your browser does not support the video tag.
                 </video>
                 </div>
-                <img src='images/pixar.png' width="160">
+                <img src='images/pixar.png' width="180">
               </div>
               <script type="text/javascript">
                 function pixar_start() {
@@ -383,7 +427,7 @@
                 Your browser does not support the video tag.
                 </video>
                 </div>
-                <img src='images/treyarch.png' width="160">
+                <img src='images/treyarch.png' width="180">
               </div>
               <script type="text/javascript">
                 function treyarch_start() {
@@ -417,7 +461,7 @@
                 Your browser does not support the video tag.
                 </video>
                 </div>
-                <img src='images/acmecod.png' width="160">
+                <img src='images/acmecod.png' width="180">
               </div>
               <script type="text/javascript">
                 function acmecod_start() {
@@ -451,7 +495,7 @@
                 Your browser does not support the video tag.
                 </video>
                 </div>
-                <img src='images/cbattyuwaterloo.png' width="160">
+                <img src='images/cbattyuwaterloo.png' width="180">
               </div>
               <script type="text/javascript">
                 function cbattyuwaterloo_start() {
@@ -485,7 +529,7 @@
                 Your browser does not support the video tag.
                 </video>
                 </div>
-                <img src='images/ubiwdl.png' width="160">
+                <img src='images/ubiwdl.png' width="180">
               </div>
               <script type="text/javascript">
                 function ubiwdl_start() {
@@ -519,7 +563,7 @@
                 Your browser does not support the video tag.
                 </video>
                 </div>
-                <img src='images/sidefx.png' width="160">
+                <img src='images/sidefx.png' width="180">
               </div>
               <script type="text/javascript">
                 function sidefx_start() {
@@ -553,7 +597,7 @@
                 Your browser does not support the video tag.
                 </video>
                 </div>
-                <img src='images/sidefx.png' width="160">
+                <img src='images/sidefx.png' width="180">
               </div>
               <script type="text/javascript">
                 function sidefx_start() {
@@ -587,7 +631,7 @@
                 Your browser does not support the video tag.
                 </video>
                 </div>
-                <img src='images/derivative.png' width="160">
+                <img src='images/derivative.png' width="180">
               </div>
               <script type="text/javascript">
                 function derivative_start() {
@@ -621,7 +665,7 @@
                 Your browser does not support the video tag.
                 </video>
                 </div>
-                <img src='images/christie.png' width="160">
+                <img src='images/christie.png' width="180">
               </div>
               <script type="text/javascript">
                 function christie_start() {
@@ -655,7 +699,7 @@
                 Your browser does not support the video tag.
                 </video>
                 </div>
-                <img src='images/ioaaleader.png' width="160">
+                <img src='images/ioaaleader.png' width="180">
               </div>
               <script type="text/javascript">
                 function ioaaleader_start() {
