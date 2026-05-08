@@ -77,6 +77,143 @@
       </div>
       
       <div class="publications-grid">
+
+        <!-- SBP -->
+        <article class="publication-card" onmouseout="SBP_stop()" onmouseover="SBP_start()">
+          <div class="publication-media">
+            <div class="media-container">
+              <div class="video-overlay" id='SBP_image'>
+                <video width="100%" height="100%" muted autoplay loop>
+                  <source src="images/SBP.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <img src='images/bridges-geometric-domains.jpg' alt="SBP" class="publication-image img-contain">
+            </div>
+          </div>
+          
+          <div class="publication-content">
+            <h3 class="publication-title">
+              <a href="https://lmattos.com/projects/bridges-geometric-domains.html">
+                Schrödinger Bridges on Discretized Geometric Domains
+              </a>
+            </h3>
+            
+            <div class="publication-authors">
+              <a href="https://lmattos.com/">Leticia Mattos Da Silva</a>,
+              <strong>Mohammad Sina Nabizadeh</strong>,
+              <a href="https://people.csail.mit.edu/jsolomon/">Justin Solomon</a>
+            </div>
+            
+            <div class="publication-venue">
+              <span class="venue">SIGGRAPH 2026</span>
+            </div>
+            
+            <p class="publication-description">
+              We introduce a spatially discrete formulation of the Schrödinger bridge problem on meshes and grids that enables structure-preserving interpolation between probability distributions. We demonstrate our approach across mesh- and grid-based applications, including displacement interpolation, shape interpolation, and color histogram manipulation, highlighting its ability to achieve geometric fidelity with computational efficiency.
+            </p>
+            
+            <div class="publication-links">
+              <a href="https://lmattos.com/projects/bridges-geometric-domains.html" class="pub-link">
+                <i class="fas fa-globe"></i> Project Page
+              </a>
+              <!-- <a href="data/SBP_siggraph2026.bib" class="pub-link">
+                <i class="fas fa-quote-right"></i> BibTeX
+              </a> -->
+            </div>
+          </div>
+        </article>
+
+        <!-- WODS -->
+        <article class="publication-card" onmouseout="WODS_stop()" onmouseover="WODS_start()">
+          <div class="publication-media">
+            <div class="media-container">
+              <div class="video-overlay" id='WODS_image'>
+                <video width="100%" height="100%" muted autoplay loop>
+                  <source src="images/WODS.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <img src='images/wods-teaser.jpg' alt="WODS" class="publication-image">
+            </div>
+          </div>
+          
+          <div class="publication-content">
+            <h3 class="publication-title">
+              <a href="https://clementjambon.github.io/wods">
+                Walk on Decomposed Subdomains: A Hybrid Monte Carlo-Deterministic Solver for Elliptic PDEs
+              </a>
+            </h3>
+            
+            <div class="publication-authors">
+              <a href="https://clementjambon.github.io/">Clément Jambon</a>,
+              <strong>Mohammad Sina Nabizadeh</strong>,
+              <a href="https://people.csail.mit.edu/mina/">Mina Konaković Luković</a>
+            </div>
+            
+            <div class="publication-venue">
+              <span class="venue">SIGGRAPH 2026</span>
+            </div>
+            
+            <p class="publication-description">
+              WoDS is a hybrid Monte Carlo-deterministic solver for elliptic PDEs on complex geometries. Our method decomposes the domain into simple subdomains, estimates local solution operators with Monte Carlo and couples them via a sparse linear system, delivering low-variance solutions orders of magnitude faster than pure Monte Carlo, without volumetric meshing.
+            </p>
+            
+            <div class="publication-links">
+              <a href="https://clementjambon.github.io/wods" class="pub-link">
+                <i class="fas fa-globe"></i> Project Page
+              </a>
+              <!-- <a href="data/WODS_siggraph2026.bib" class="pub-link">
+                <i class="fas fa-quote-right"></i> BibTeX
+              </a> -->
+            </div>
+          </div>
+        </article>
+
+        <!-- Thesis -->
+        <article class="publication-card" onmouseout="thesis_stop()" onmouseover="thesis_start()">
+          <div class="publication-media">
+            <div class="media-container">
+              <div class="video-overlay" id='thesis_image'>
+                <video width="100%" height="100%" muted autoplay loop>
+                  <source src="images/thesis.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <img src='images/thesis.png' alt="Thesis" class="publication-image">
+            </div>
+          </div>
+          
+          <div class="publication-content">
+            <h3 class="publication-title">
+              <a href="https://escholarship.org/uc/item/26f253tx">
+                Fluid Dynamics: From Geometric Formulations to Structure-preserving Simulations
+              </a>
+            </h3>
+            
+            <div class="publication-authors">
+              <strong>Mohammad Sina Nabizadeh</strong>
+            </div>
+            
+            <div class="publication-venue">
+              <span class="venue">Ph.D. Thesis, University of California San Diego</span>
+            </div>
+            
+            <p class="publication-description">
+              This dissertation develops a suite of geometric and structure-preserving methods for simulating incompressible fluid dynamics, beginning with foundational geometric formulations and culminating in structure-preserving numerical schemes.
+            </p>
+            
+            <div class="publication-links">
+              <a href="https://escholarship.org/uc/item/26f253tx" class="pub-link">
+                <i class="fas fa-globe"></i> Link
+              </a>
+              <a href="data/thesis.bib" class="pub-link">
+                <i class="fas fa-quote-right"></i> BibTeX
+              </a>
+            </div>
+          </div>
+        </article>
+
         <!-- Publication 1: CO-FLIP -->
         <article class="publication-card" onmouseout="coflip_stop()" onmouseover="coflip_start()">
           <div class="publication-media">
@@ -139,7 +276,7 @@
                   Your browser does not support the video tag.
                 </video>
               </div>
-              <img src='images/fluidcohomology.png' alt="Fluid Cohomology" class="publication-image">
+              <img src='images/fluidcohomology.png' alt="Fluid Cohomology" class="publication-image img-contain">
             </div>
           </div>
           
@@ -184,7 +321,7 @@
         <article class="publication-card">
           <div class="publication-media">
             <div class="media-container">
-              <img src='images/extcourse.png' alt="Exterior Calculus Course" class="publication-image">
+              <img src='images/extcourse.png' alt="Exterior Calculus Course" class="publication-image img-contain">
             </div>
           </div>
           
@@ -274,7 +411,7 @@
                   Your browser does not support the video tag.
                 </video>
               </div>
-              <img src='images/covectorfluids.png' alt="Co-vector Fluids" class="publication-image">
+              <img src='images/covectorfluids.png' alt="Co-vector Fluids" class="publication-image img-contain">
             </div>
           </div>
           

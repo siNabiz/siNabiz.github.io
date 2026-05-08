@@ -374,10 +374,11 @@ a:hover {
 .publication-image {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
-  padding: var(--spacing-sm);
+  padding: 0;
   border-radius: var(--border-radius-md);
+  display: block;
 }
 
 .video-overlay {
@@ -583,13 +584,22 @@ a:hover {
   justify-content: center;
 }
 
-.experience-image {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
-  padding: var(--spacing-sm);
-  border-radius: var(--border-radius-md);
+/* Utility classes to choose how an image fills its card.
+   Use `img-contain` to keep the whole image visible (letterbox/pillarbox),
+   or `img-cover` to force filling/cropping. These use `!important`
+   so they override per-image src selectors when needed. */
+.img-cover {
+  object-fit: cover !important;
+  object-position: center !important;
+  padding: 0 !important;
+  display: block !important;
+}
+
+.img-contain {
+  object-fit: contain !important;
+  object-position: center !important;
+  padding: var(--spacing-sm) !important;
+  display: block !important;
 }
 
 .experience-content {
