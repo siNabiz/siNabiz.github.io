@@ -1,0 +1,364 @@
+[
+  {
+    "date": "2026-06",
+    "type": "award",
+    "event": "Best Paper Honorable Mention",
+    "detail": "SGP 2026 (top 1.5% of submitted papers)",
+    "paper": "tangentblowup",
+    "location": null,
+    "remote": false,
+    "links": {
+      "detail": "https://diglib.eg.org/items/3695e41a-61b5-40f3-b35b-7ad8895b9deb"
+    }
+  },
+  {
+    "date": "2026-07",
+    "type": "attendance",
+    "event": "SIGGRAPH 2026",
+    "location": "Los Angeles, CA, USA",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2026-06",
+    "type": "attendance",
+    "event": "Symposium on Geometry Processing (SGP 2026)",
+    "location": "Bern, Switzerland",
+    "remote": false,
+    "links": {
+      "detail": "https://sgp26.org/"
+    }
+  },
+  {
+    "date": "2026-06",
+    "type": "course",
+    "event": "SGP 2026 Graduate School",
+    "detail": "Computational Geometric Fluid Mechanics",
+    "cotaught": true,
+    "paper": null,
+    "location": "Bern, Switzerland",
+    "remote": false,
+    "links": {
+      "detail": "https://sgp26.org/program"
+    }
+  },
+  {
+    "date": "2026-06",
+    "type": "talk",
+    "event": "Delft University of Technology (TU Delft)",
+    "paper": "coflip",
+    "location": "Delft, Netherlands",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2026-03",
+    "type": "talk",
+    "event": "University of Toronto Visual Computing Seminar",
+    "paper": "coflip",
+    "location": "Toronto, ON, Canada",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2026-03",
+    "type": "talk",
+    "event": "Brown Visual Computing Seminar",
+    "paper": "coflip",
+    "location": "Providence, RI, USA",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2026-02",
+    "type": "talk",
+    "event": "MIT Center for Computational Science and Engineering Seminar",
+    "paper": "coflip",
+    "location": "Cambridge, MA, USA",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2026-03",
+    "type": "service",
+    "event": "Co-Organizer",
+    "detail": "New England Symposium of Graphics",
+    "paper": null,
+    "location": null,
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2026-05",
+    "type": "award",
+    "event": "Best Paper Award",
+    "detail": "SIGGRAPH 2026",
+    "paper": "walkondecomposed",
+    "location": null,
+    "remote": false,
+    "links": {
+      "detail": "https://dl.acm.org/doi/10.1145/3811314"
+    }
+  },
+  {
+    "date": "2026-05",
+    "type": "publication",
+    "event": "SIGGRAPH 2026",
+    "paper": "schrodinger",
+    "location": null,
+    "remote": false,
+    "links": {
+      "detail": "https://lmattos.com/projects/bridges-geometric-domains.html"
+    }
+  },
+  {
+    "date": "2025-09",
+    "type": "talk",
+    "event": "MIT Visual Computing Seminar",
+    "paper": "coflip",
+    "location": "Cambridge, MA, USA",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2025-07",
+    "type": "milestone",
+    "event": "Started PostDoc at MIT",
+    "detail": "Geometric Data Processing Group with Prof. Justin Solomon",
+    "paper": null,
+    "location": "Cambridge, MA, USA",
+    "remote": false,
+    "links": {
+      "detail": "https://gdp.csail.mit.edu"
+    }
+  },
+  {
+    "date": "2025-06",
+    "type": "milestone",
+    "event": "PhD defense",
+    "detail": "Fluid Dynamics: From Geometric Formulations to Structure-Preserving Simulations",
+    "paper": null,
+    "location": "La Jolla, CA, USA",
+    "remote": false,
+    "links": {
+      "detail": "https://escholarship.org/uc/item/26f253tx"
+    }
+  },
+  {
+    "date": "2025-06",
+    "type": "talk",
+    "event": "UCSD Visual Computing Retreat",
+    "paper": "coflip",
+    "location": "La Jolla, CA, USA",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2025-03",
+    "type": "conference",
+    "event": "Geometric Mechanics Formulations for Continuum Mechanics",
+    "paper": "coflip",
+    "location": "Banff, AB, Canada",
+    "remote": false,
+    "links": {
+      "recording": "https://www.birs.ca/events/2025/5-day-workshops/25w5441/videos/watch/202503181328-Nabizadeh.html"
+    }
+  },
+  {
+    "date": "2025-03",
+    "type": "conference",
+    "event": "SIAM CSE 2025",
+    "paper": "coflip",
+    "location": "Fort Worth, TX, USA",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2024-12",
+    "type": "award",
+    "event": "Best Paper Honorable Mention",
+    "detail": "SIGGRAPH Asia 2024 (top 1.5% of submitted papers)",
+    "paper": "coflip",
+    "location": "Tokyo, Japan",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2024-12",
+    "type": "conference",
+    "event": "SIGGRAPH Asia 2024",
+    "paper": "coflip",
+    "location": "Tokyo, Japan",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2024-10",
+    "type": "talk",
+    "event": "UCSD Pixel Cafe Seminar",
+    "paper": "coflip",
+    "location": "La Jolla, CA, USA",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2024-10",
+    "type": "talk",
+    "event": "University of Waterloo Computer Graphics Seminar",
+    "paper": "coflip",
+    "location": "Waterloo, ON, Canada",
+    "remote": true,
+    "links": {}
+  },
+  {
+    "date": "2024-09",
+    "type": "talk",
+    "event": "ISTA Computer Graphics Seminar",
+    "paper": "coflip",
+    "location": "Klosterneuburg, Austria",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2024-07",
+    "type": "conference",
+    "event": "WCCM 2024 / PANACM 2024",
+    "paper": "coflip",
+    "location": "Vancouver, BC, Canada",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2023-08",
+    "type": "course",
+    "event": "SIGGRAPH 2023",
+    "paper": "extcourse",
+    "location": "Los Angeles, CA, USA",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2023-07",
+    "type": "talk",
+    "event": "WētāFX",
+    "paper": "covector",
+    "location": "Wellington, New Zealand",
+    "remote": true,
+    "links": {}
+  },
+  {
+    "date": "2023-06",
+    "type": "talk",
+    "event": "UCSD Pixel Cafe Seminar",
+    "paper": "covector",
+    "location": "La Jolla, CA, USA",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2023-04",
+    "type": "conference",
+    "event": "Southern California Fluids XVI",
+    "paper": "covector",
+    "location": "San Diego, CA, USA",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2023-02",
+    "type": "talk",
+    "event": "UCSD Geometric Mechanics Seminar",
+    "paper": "covector",
+    "location": "La Jolla, CA, USA",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2022-11",
+    "type": "talk",
+    "event": "UCSD Joint Oceanography and CS Fluid Mechanics Seminar",
+    "paper": "covector",
+    "location": "La Jolla, CA, USA",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2022-08",
+    "type": "conference",
+    "event": "SIGGRAPH 2022",
+    "paper": "covector",
+    "location": "Vancouver, BC, Canada",
+    "remote": false,
+    "links": {
+      "recording": "https://dl.acm.org/doi/abs/10.1145/3528223.3530120"
+    }
+  },
+  {
+    "date": "2022-08",
+    "type": "talk",
+    "event": "Stanford University Computer Graphics Seminar",
+    "paper": "covector",
+    "location": "Stanford, CA, USA",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2022-06",
+    "type": "talk",
+    "event": "UCSD Visual Computing Retreat",
+    "paper": "covector",
+    "location": "La Jolla, CA, USA",
+    "remote": false,
+    "links": {}
+  },
+  {
+    "date": "2022-06",
+    "type": "talk",
+    "event": "McGill University Computer Graphics Seminar",
+    "detail": "Discussion",
+    "paper": "covector",
+    "location": "Montreal, QC, Canada",
+    "remote": true,
+    "links": {}
+  },
+  {
+    "date": "2022-06",
+    "type": "talk",
+    "event": "University of Waterloo Computer Graphics Seminar",
+    "paper": "covector",
+    "location": "Waterloo, ON, Canada",
+    "remote": true,
+    "links": {}
+  },
+  {
+    "date": "2022-05",
+    "type": "talk",
+    "event": "SideFX Software",
+    "paper": "covector",
+    "location": "Toronto, ON, Canada",
+    "remote": true,
+    "links": {}
+  },
+  {
+    "date": "2021-09",
+    "type": "talk",
+    "event": "University of Toronto Geometry Colloquium",
+    "paper": "kelvin",
+    "location": "Toronto, ON, Canada",
+    "remote": true,
+    "links": {
+      "recording": "https://www.youtube.com/watch?v=bI3nALA895g"
+    }
+  },
+  {
+    "date": "2021-08",
+    "type": "conference",
+    "event": "SIGGRAPH 2021",
+    "paper": "kelvin",
+    "location": null,
+    "remote": true,
+    "links": {
+      "recording": "https://dl.acm.org/doi/abs/10.1145/3450626.3459809"
+    }
+  }
+]

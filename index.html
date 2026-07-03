@@ -14,69 +14,143 @@
 </head>
 
 <body>
+  <nav class="site-nav" id="site-nav">
+    <div class="nav-inner">
+      <a href="#about" class="nav-brand">Mohammad Sina Nabizadeh</a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#publications">Research</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#talks">Talks</a></li>
+        <li><a href="#experience">Experience</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <div class="container">
     <!-- Header Section -->
-    <header class="hero-section">
+    <header class="hero-section" id="about">
       <div class="hero-content">
-        <div class="profile-info">
+        <div class="hero-main">
+          <div class="profile-info">
           <h1 class="name">Mohammad Sina Nabizadeh</h1>
-          <p class="tagline">PostDoc at MIT CSAIL</p>
+          <p class="tagline">PostDoc, Geometric Data Processing Group · MIT CSAIL</p>
           
           <div class="bio">
-            <p>I am a PostDoc at <a href="https://mit.edu/">Massachusetts Institute of Technology (MIT)</a> and the awesome <a href="https://gdp.csail.mit.edu">Geometric Data Processing Group</a> with professor <a href="https://people.csail.mit.edu/jsolomon/">Justin Solomon</a>.</p>
+            <p>I am a PostDoc at the <a href="https://mit.edu/">Massachusetts Institute of Technology (MIT)</a> in the <a href="https://gdp.csail.mit.edu">Geometric Data Processing Group</a> with Professor <a href="https://people.csail.mit.edu/jsolomon/">Justin Solomon</a>.</p>
             
             <p>I received my CS Ph.D. degree at <a href="https://ucsd.edu/">UC San Diego</a> and the <a href="http://visualcomputing.ucsd.edu/">Center for Visual Computing</a>, where I worked on various topics in computer graphics research.</p>
             
-            <p>At UC San Diego, I was extremely lucky to work with professors <a href="https://cseweb.ucsd.edu/~alchern/">Albert Chern</a> and <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>. I did my bachelors in computer engineering at the <a href="https://uwaterloo.ca/">University of Waterloo</a>, where I was fortunate to be advised by professor <a href="https://cs.uwaterloo.ca/~c2batty/">Christopher Batty</a> at the <a href="https://uwaterloo.ca/computational-motion-group/">Computational Motion Group</a>.</p>
+            <p>At UC San Diego, I was mentored by Professors <a href="https://cseweb.ucsd.edu/~alchern/">Albert Chern</a> and <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>. I earned my bachelor's degree in computer engineering at the <a href="https://uwaterloo.ca/">University of Waterloo</a>, where I was advised by Professor <a href="https://cs.uwaterloo.ca/~c2batty/">Christopher Batty</a> at the <a href="https://uwaterloo.ca/computational-motion-group/">Computational Motion Group</a>.</p>
             
             <p>I received a silver medal at the <a href="https://www.ioaastrophysics.org/">International Olympiad on Astronomy and Astrophysics</a> in 2014 and <a href="https://betakit.com/heres-the-list-of-canadas-developer-30-under-30">Canada Developer 30 Under 30 Award</a> in 2018. I was credited for working on <a href="https://www.sidefx.com/docs/houdini/credits.html">Houdini by SideFX</a>, and two AAA games in 2020: <a href="https://youtu.be/3YUpzlI3dpA?t=83">Watch Dogs Legion by Ubisoft</a> and <a href="https://youtu.be/DkspHgt27Io?t=273">Call of Duty Black Ops: Cold War by Activision</a>.</p>
           </div>
-          
-          <div class="social-links">
-            <a href="https://www.linkedin.com/in/mohammad-sina-nabizadeh/" class="social-link">
-              <i class="fab fa-linkedin"></i> LinkedIn
-            </a>
-            <a href="https://github.com/siNabiz" class="social-link">
-              <i class="fab fa-github"></i> GitHub
-            </a>
-            <a href="https://scholar.google.com/citations?user=ylI1yLIAAAAJ&hl=en&oi=sra" class="social-link">
-              <i class="fas fa-graduation-cap"></i> Google Scholar
-            </a>
-            <a href="https://twitter.com/sinabiz_" class="social-link">
-              <i class="fab fa-twitter"></i> Twitter
-            </a>
-            <a href="https://orcid.org/0000-0002-2182-5197" class="social-link">
-              <i class="fab fa-orcid"></i> ORCID
-            </a>
-            <a href="https://www.mobygames.com/person/1168181/mohammad-nabizadeh/" class="social-link">
-              <i class="fas fa-gamepad"></i> MobyGames
-            </a>
-          </div>
-          
-          <div class="contact-info">
-            <p class="email">
-              <i class="fas fa-envelope"></i>
-              sinabiz-at-mit-dot-edu
-            </p>
-          </div>
         </div>
-        
-        <div class="profile-image">
-          <img src="images/sina25.jpeg" alt="Mohammad Sina Nabizadeh" class="avatar">
+        </div>
+
+        <aside class="hero-aside">
+          <div class="profile-image">
+            <img src="images/sina25.jpeg" alt="Mohammad Sina Nabizadeh" class="avatar">
+          </div>
+
+          <div class="profile-contact">
+            <p class="profile-email">
+              <a href="mailto:sinabiz@mit.edu">sinabiz-at-mit-dot-edu</a>
+            </p>
+            <div class="social-links social-links--icons">
+              <a href="https://www.linkedin.com/in/mohammad-sina-nabizadeh/" class="social-link" aria-label="LinkedIn">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="https://github.com/siNabiz" class="social-link" aria-label="GitHub">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="https://scholar.google.com/citations?user=ylI1yLIAAAAJ&hl=en&oi=sra" class="social-link" aria-label="Google Scholar">
+                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+              </a>
+              <a href="https://twitter.com/sinabiz_" class="social-link" aria-label="Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="https://orcid.org/0000-0002-2182-5197" class="social-link" aria-label="ORCID">
+                <i class="fab fa-orcid" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.mobygames.com/person/1168181/mohammad-nabizadeh/" class="social-link" aria-label="MobyGames">
+                <i class="fas fa-gamepad" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </aside>
+
+        <div class="news-sidebar" id="news">
+          <h3 class="news-sidebar-heading">News</h3>
+          <ul id="news-sidebar-list" class="news-sidebar-list" aria-live="polite"></ul>
+          <button id="news-sidebar-toggle" class="news-sidebar-toggle" type="button" aria-expanded="false" hidden>
+            Show more
+          </button>
         </div>
       </div>
     </header>
 
-    <!-- Publications Section -->
-    <section class="publications-section">
+    <!-- Research Section -->
+    <section class="publications-section" id="publications">
       <div class="section-header">
-        <h2>Publications</h2>
+        <h2>Research</h2>
         <p class="section-description">
-          I'm broadly interested in the intersection of mathematics, computer science, physics, and engineering. More specifically, I'm passionate about computational geometric mechanics, structure-preserving simulations, discrete differential geometry, optimization, and stochastic mechanics. I also avidly follow research in the real-time computer graphics field.
+          I am a computational scientist who develops numerical methods for solving differential equations and problems in geometry. My work began in fluid simulation and has since extended to geometry processing and the simulation of other physical systems such as plasma and elasticity, developing both traditional and learning-based methods along the way. I tend to approach these problems by abstracting away their specifics to find the structure underneath that is often shared across otherwise distinct phenomena. This perspective is grounded in discrete differential geometry, structure-preserving simulation, and computational geometric mechanics.
         </p>
       </div>
       
       <div class="publications-grid">
+
+        <!-- Tangent Blow-Ups -->
+        <article class="publication-card">
+          <div class="publication-media publication-media--transparent">
+            <div class="media-container">
+              <img src="images/tangentblowup.png" alt="Tangent Blow-Ups for Processing Non-Manifold Geometry" class="publication-image img-contain">
+            </div>
+          </div>
+          
+          <div class="publication-content">
+            <h3 class="publication-title">
+              <a href="https://diglib.eg.org/items/3695e41a-61b5-40f3-b35b-7ad8895b9deb">
+                Tangent Blow-Ups for Processing Non-Manifold Geometry
+              </a>
+            </h3>
+            
+            <div class="publication-authors">
+              Alice Petrov,
+              <strong>Mohammad Sina Nabizadeh</strong>,
+              <a href="https://anadodik.github.io/">Ana Dodik</a>,
+              <a href="https://people.csail.mit.edu/jsolomon/">Justin Solomon</a>
+            </div>
+            
+            <div class="publication-venue">
+              <span class="venue">Symposium on Geometry Processing (SGP) 2026</span>
+              <span class="award">Best Paper Award (Honorable Mention, top 1.5%)</span>
+            </div>
+            
+            <p class="publication-description">
+              We introduce the tangent blow-up, a representation inspired by algebraic geometry that restores structure at singularities by lifting to the product of the ambient space and the Grassmannian of tangent planes. We define discretized gradient, divergence, and Laplacian operators in the lifted domain and demonstrate geodesic computation, segmentation, surface parameterization, and curvature estimation on non-manifold geometry.
+            </p>
+            
+            <div class="publication-links">
+              <a href="https://diglib.eg.org/items/3695e41a-61b5-40f3-b35b-7ad8895b9deb" class="pub-link">
+                <i class="fas fa-globe"></i> Publisher Page
+              </a>
+              <a href="https://diglib.eg.org/bitstream/handle/10.1111/cgf70527/cgf70527.pdf" class="pub-link">
+                <i class="fas fa-file-pdf"></i> Paper
+              </a>
+              <a href="https://arxiv.org/abs/2605.18215" class="pub-link">
+                <i class="fas fa-link"></i> arXiv
+              </a>
+              <a href="data/tangentblowup_cgf2026.bib" class="pub-link">
+                <i class="fas fa-quote-right"></i> BibTeX
+              </a>
+            </div>
+          </div>
+        </article>
 
         <!-- SBP -->
         <article class="publication-card" onmouseout="SBP_stop()" onmouseover="SBP_start()">
@@ -164,6 +238,9 @@
               <a href="https://clementjambon.github.io/wods" class="pub-link">
                 <i class="fas fa-globe"></i> Project Page
               </a>
+              <a href="https://dl.acm.org/doi/10.1145/3811314" class="pub-link">
+                <i class="fas fa-file-pdf"></i> Paper
+              </a>
               <a href="data/WODS_siggraph2026.bib" class="pub-link">
                 <i class="fas fa-quote-right"></i> BibTeX
               </a>
@@ -246,7 +323,7 @@
             
             <div class="publication-venue">
               <span class="venue">SIGGRAPH Asia 2024</span>
-              <span class="award">Best Paper Award (Honorable Mention)</span>
+              <span class="award">Best Paper Award (Honorable Mention, top 1.5%)</span>
             </div>
             
             <p class="publication-description">
@@ -503,47 +580,54 @@
       </div>
     </section>
 
-    <!-- News Section -->
-    <section class="news-section">
+    <!-- Awards Section -->
+    <section class="awards-section" id="awards">
       <div class="section-header">
-        <h2>News</h2>
+        <h2>Awards</h2>
       </div>
-      
-      <div class="news-content">
-        <ul class="news-list">
-          <li><strong>June 2025:</strong> Defended thesis titled <a href="https://escholarship.org/uc/item/26f253tx">Fluid Dynamics: From Geometric Formulations to Structure-Preserving Simulations</a>, La Jolla, CA, USA</li>
-          <li><strong>June 2025:</strong> Talk on Fluid Implicit Particles on Coadjoint Orbits paper at <em>Visual Computing Retreat</em>, La Jolla, CA, USA</li>
-          <li><strong>March 2025:</strong> Talk on Fluid Implicit Particles on Coadjoint Orbits paper at <em>Geometric Mechanics Formulations for Continuum Mechanics</em> workshop, Banff, AB, Canada (with <a href="https://www.birs.ca/events/2025/5-day-workshops/25w5441/videos/watch/202503181328-Nabizadeh.html">recording</a>)</li>
-          <li><strong>March 2025:</strong> Talk on Fluid Implicit Particles on Coadjoint Orbits paper at <em>Society of Industrial and Applied Mathematics (SIAM) CSE 2025</em>, Fort Worth, TX, USA</li>
-          <li><strong>December 2024:</strong> Talk on Fluid Implicit Particles on Coadjoint Orbits paper on CO-FLIP paper at <em>SIGGRAPH Asia 2024</em>, Tokyo, Japan</li>
-          <li><strong>October 2024:</strong> Talk on Fluid Implicit Particles on Coadjoint Orbits paper at <em>Pixel Cafe Seminar</em>, UCSD, La Jolla, CA, USA</li>
-          <li><strong>October 2024:</strong> Talk on Fluid Implicit Particles on Coadjoint Orbits paper at <em>University of Waterloo Computer Graphics Seminar</em>, Waterloo, ON, Canada (remote)</li>
-          <li><strong>September 2024:</strong> Talk on Fluid Implicit Particles on Coadjoint Orbits paper at <em>Institute of Science and Technology Austria (ISTA) Computer Graphics Seminar</em>, Klosterneuburg, Austria</li>
-          <li><strong>July 2024:</strong> Talk on Fluid Implicit Particles on Coadjoint Orbits paper at <em> 16th World Congress on Computational Mechanics (WCCM) / 4th Pan American Congress on Computational Mechanics (PANACM) 2024</em>, Vancouver, BC, Canada</li>
-          <li><strong>August 2023:</strong> Talk on Exterior Calculus in Computer Graphics course at <em>SIGGRAPH 2023</em>, Los Angeles, CA, USA</li>
-          <li><strong>July 2023:</strong> Talk on Covector Fluids paper at <em>WētāFX</em>, Wellington, New Zealand (remote)</li>
-          <li><strong>June 2023:</strong> Talk on Covector Fluids paper at <em>Pixel Cafe Seminar</em>, UCSD, La Jolla, CA, USA</li>
-          <li><strong>April 2023:</strong> Talk on Covector Fluids paper at <em>Southern California Fluids XVI</em>, San Diego, CA, USA</li>
-          <li><strong>February 2023:</strong> Talk on Covector Fluids paper at <em>Geometric Mechanics Seminar</em>, UCSD, La Jolla, CA, USA</li>
-          <li><strong>November 2022:</strong> Talk on Covector Fluids paper at <em>Joint Oceanography and CS Fluid Mechanics Seminar</em>, UCSD, La Jolla, CA, USA</li>
-          <li><strong>August 2022:</strong> Talk on Covector Fluids paper at <em>SIGGRAPH 2022</em>, Vancouver, BC, Canada (with <a href="https://dl.acm.org/doi/abs/10.1145/3528223.3530120">recording</a>)</li>
-          <li><strong>August 2022:</strong> Talk on Covector Fluids paper at <em>Stanford University Computer Graphics Seminar</em>, Stanford, CA, USA</li>
-          <li><strong>June 2022:</strong> Talk on Covector Fluids paper at <em>Visual Computing Retreat</em>, La Jolla, CA, USA</li>
-          <li><strong>June 2022:</strong> Discussion on Covector Fluids paper at <em>McGill University Computer Graphics Seminar</em>, Montreal, QC, Canada (remote)</li>
-          <li><strong>June 2022:</strong> Talk on Covector Fluids paper at <em>University of Waterloo Computer Graphics Seminar</em>, Waterloo, ON, Canada (remote)</li>
-          <li><strong>May 2022:</strong> Talk on Covector Fluids paper at <em>SideFX Software</em>, Toronto, ON, Canada (remote)</li>
-          <li><strong>September 2021:</strong> Talk on Kelvin Transform paper at <em>Toronto Geometry Colloquium</em>, Toronto, ON, Canada (remote with <a href="https://www.youtube.com/watch?v=bI3nALA895g">recording</a>)</li>
-          <li><strong>August 2021:</strong> Talk on Kelvin Transform paper at <em>SIGGRAPH 2021</em> (virtual with <a href="https://dl.acm.org/doi/abs/10.1145/3450626.3459809">recording</a>)</li>
-        </ul>
+      <div class="compact-table-wrap">
+        <table class="compact-table">
+          <thead>
+            <tr>
+              <th scope="col">Year</th>
+              <th scope="col">Award</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody id="awards-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Selected Talks Section -->
+    <section class="talks-section" id="talks">
+      <div class="section-header">
+        <h2>Talks</h2>
+        <p class="section-description section-description--compact">
+          Invited seminars, conference presentations, and courses.
+        </p>
+      </div>
+      <div class="compact-table-wrap">
+        <table class="compact-table">
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Talk</th>
+              <th scope="col">Venue</th>
+              <th scope="col">Links</th>
+            </tr>
+          </thead>
+          <tbody id="talks-table-body"></tbody>
+        </table>
       </div>
     </section>
 
     <!-- Experience Section -->
-    <section class="experience-section">
+    <section class="experience-section" id="experience">
       <div class="section-header">
         <h2>Experience</h2>
         <p class="section-description">
-          Throughout my studies, I've been very fortunate to intern at various places, and be mentored by all the wonderful folks listed below, so that I could pursue my childhood passion towards movies, animation, and gaming. These internships have allowed me to witness how much beautiful math, physics, and engineering goes into creating these forms of art, and to contribute my share to them.
+          Throughout my studies I have been fortunate to intern at several places and to learn from the mentors listed below, pursuing a lifelong passion for film, animation, and video games. These experiences showed me how much mathematics, physics, and engineering goes into these art forms, and let me contribute to them in my own small way.
         </p>
       </div>
       
@@ -945,12 +1029,37 @@
       document.getElementById('kelvintransform_image').style.opacity = "0";
     }
     kelvintransform_stop();
+
+    function SBP_start() {
+      document.getElementById('SBP_image').style.opacity = "1";
+    }
+    function SBP_stop() {
+      document.getElementById('SBP_image').style.opacity = "0";
+    }
+    SBP_stop();
+
+    function WODS_start() {
+      document.getElementById('WODS_image').style.opacity = "1";
+    }
+    function WODS_stop() {
+      document.getElementById('WODS_image').style.opacity = "0";
+    }
+    WODS_stop();
+
+    function thesis_start() {
+      document.getElementById('thesis_image').style.opacity = "1";
+    }
+    function thesis_stop() {
+      document.getElementById('thesis_image').style.opacity = "0";
+    }
+    thesis_stop();
   </script>
+  <script src="./news.js"></script>
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <p class="footer-text">
-        This website was originally forked from <a href="https://jonbarron.info/">Jon Barron</a>, and I've since made modifications using Claude Sonnet 4.
+        This website was originally forked from <a href="https://jonbarron.info/">Jon Barron</a>, and later refined using various AI tools.
       </p>
     </div>
   </footer>
