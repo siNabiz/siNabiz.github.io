@@ -84,6 +84,9 @@
         </aside>
 
         <div class="news-sidebar" id="news">
+          <p class="job-market-note">
+            <strong>Job Market</strong> — I’m on the 2026–2027 academic job market.
+          </p>
           <h3 class="news-sidebar-heading">News</h3>
           <ul id="news-sidebar-list" class="news-sidebar-list" aria-live="polite"></ul>
           <button id="news-sidebar-toggle" class="news-sidebar-toggle" type="button" aria-expanded="false" hidden>
@@ -152,52 +155,6 @@
           </div>
         </article>
 
-        <!-- SBP -->
-        <article class="publication-card" onmouseout="SBP_stop()" onmouseover="SBP_start()">
-          <div class="publication-media">
-            <div class="media-container">
-              <div class="video-overlay" id='SBP_image'>
-                <video width="100%" height="100%" muted autoplay loop>
-                  <source src="images/SBP.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-              <img src='images/bridges-geometric-domains.jpg' alt="SBP" class="publication-image img-contain">
-            </div>
-          </div>
-          
-          <div class="publication-content">
-            <h3 class="publication-title">
-              <a href="https://lmattos.com/projects/bridges-geometric-domains.html">
-                Schrödinger Bridges on Discretized Geometric Domains
-              </a>
-            </h3>
-            
-            <div class="publication-authors">
-              <a href="https://lmattos.com/">Leticia Mattos Da Silva</a>,
-              <strong>Mohammad Sina Nabizadeh</strong>,
-              <a href="https://people.csail.mit.edu/jsolomon/">Justin Solomon</a>
-            </div>
-            
-            <div class="publication-venue">
-              <span class="venue">SIGGRAPH 2026</span>
-            </div>
-            
-            <p class="publication-description">
-              We introduce a spatially discrete formulation of the Schrödinger bridge problem on meshes and grids that enables structure-preserving interpolation between probability distributions. We demonstrate our approach across mesh- and grid-based applications, including displacement interpolation, shape interpolation, and color histogram manipulation, highlighting its ability to achieve geometric fidelity with computational efficiency.
-            </p>
-            
-            <div class="publication-links">
-              <a href="https://lmattos.com/projects/bridges-geometric-domains.html" class="pub-link">
-                <i class="fas fa-globe"></i> Project Page
-              </a>
-              <!-- <a href="data/SBP_siggraph2026.bib" class="pub-link">
-                <i class="fas fa-quote-right"></i> BibTeX
-              </a> -->
-            </div>
-          </div>
-        </article>
-
         <!-- WODS -->
         <article class="publication-card" onmouseout="WODS_stop()" onmouseover="WODS_start()">
           <div class="publication-media">
@@ -238,10 +195,59 @@
               <a href="https://clementjambon.github.io/wods" class="pub-link">
                 <i class="fas fa-globe"></i> Project Page
               </a>
-              <a href="https://dl.acm.org/doi/10.1145/3811314" class="pub-link">
+              <a href="https://dl.acm.org/doi/10.1145/3811340" class="pub-link">
                 <i class="fas fa-file-pdf"></i> Paper
               </a>
               <a href="data/WODS_siggraph2026.bib" class="pub-link">
+                <i class="fas fa-quote-right"></i> BibTeX
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- SBP -->
+        <article class="publication-card" onmouseout="SBP_stop()" onmouseover="SBP_start()">
+          <div class="publication-media">
+            <div class="media-container">
+              <div class="video-overlay" id='SBP_image'>
+                <video width="100%" height="100%" muted autoplay loop>
+                  <source src="images/SBP.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <img src='images/bridges-geometric-domains.jpg' alt="SBP" class="publication-image img-contain">
+            </div>
+          </div>
+          
+          <div class="publication-content">
+            <h3 class="publication-title">
+              <a href="https://lmattos.com/projects/bridges-geometric-domains.html">
+                Schrödinger Bridges on Discretized Geometric Domains
+              </a>
+            </h3>
+            
+            <div class="publication-authors">
+              <a href="https://lmattos.com/">Leticia Mattos Da Silva</a>,
+              <strong>Mohammad Sina Nabizadeh</strong>,
+              <a href="https://people.csail.mit.edu/jsolomon/">Justin Solomon</a>
+            </div>
+            
+            <div class="publication-venue">
+              <span class="venue">SIGGRAPH 2026</span>
+            </div>
+            
+            <p class="publication-description">
+              We introduce a spatially discrete formulation of the Schrödinger bridge problem on meshes and grids that enables structure-preserving interpolation between probability distributions. We demonstrate our approach across mesh- and grid-based applications, including displacement interpolation, shape interpolation, and color histogram manipulation, highlighting its ability to achieve geometric fidelity with computational efficiency.
+            </p>
+            
+            <div class="publication-links">
+              <a href="https://lmattos.com/projects/bridges-geometric-domains.html" class="pub-link">
+                <i class="fas fa-globe"></i> Project Page
+              </a>
+              <a href="https://dl.acm.org/doi/10.1145/3811314" class="pub-link">
+                <i class="fas fa-globe"></i> Publisher Page
+              </a>
+              <a href="data/SBP_siggraph2026.bib" class="pub-link">
                 <i class="fas fa-quote-right"></i> BibTeX
               </a>
             </div>
