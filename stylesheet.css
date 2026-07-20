@@ -734,6 +734,18 @@ a:hover {
   font-weight: 600;
 }
 
+.publication-authors .author-note {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
+}
+
+.publication-authors sup {
+  font-size: 0.7em;
+  line-height: 0;
+}
+
 .publication-venue {
   display: flex;
   align-items: center;
@@ -974,6 +986,13 @@ img[src*="infinitewave.jpeg"] {
   object-fit: cover !important;
   object-position: center 30% !important;
   padding: 0 !important;
+}
+
+img[src*="vak.png"] {
+  border-radius: var(--border-radius-md) !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  padding: var(--spacing-sm) !important;
 }
 
 img[src*="kelvintransform.png"] {
